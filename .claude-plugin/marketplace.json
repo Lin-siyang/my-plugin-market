@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "my-custom-marketplace",
+  "description": "My personal or team Claude Code plugins",
+  "owner": {
+    "name": "Lin Siyang",
+    "email": "18715562844@163.com"
+  },
+  "plugins": [
+    {
+      "name": "my-first-plugin",
+      "description": "A custom greeting plugin",
+      "author": {
+        "name": "Lin"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Lin-siyang/my-plugin-market.git",
+        "path": "plugins/my-first-plugin",
+        "ref": "main"
+      }
+    }
+  ]
+}
